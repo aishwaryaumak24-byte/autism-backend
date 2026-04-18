@@ -6,7 +6,7 @@ from flask import Flask, jsonify, request
 from flask_cors import CORS
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-MODEL_PATH = os.path.join(BASE_DIR, "model.pkl")
+MODEL_PATH = os.path.join(BASE_DIR, "autism_model.pkl")
 COLUMNS_PATH = os.path.join(BASE_DIR, "columns.json")
 
 app = Flask(__name__)
